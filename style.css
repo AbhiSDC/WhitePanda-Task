@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*CSS for Header*/
+
+header {
+    background-color: white;
+    padding-top: 1.25rem;
+    padding-bottom: .625rem;
+    padding-left: 1.687rem;
+    height: 4.062rem;
+    width: 100%;
+    font-size: .625rem;
+    position: relative;
+    color: white;
+    box-shadow:
+        0 2px 4px 0 rgba(0, 0, 0, 0.02),
+        0 2px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+.us {
+    margin-right: 11%;
+    float: right;
+}
+
+header a {
+    margin-left: 8.062rem;
+    margin-bottom: 1.56rem;
+}
+
+.far.fa-bell {
+    height: 1.875rem;
+    width: 2.187rem;
+    font-size: 1.625rem;
+    color: black;
+}
+
+.fas.fa-user-circle {
+    font-weight: 900;
+    font-size: 1.625rem;
+    color: black;
+}
+
+/*CSS for Main Content*/
+
+main {
+    background-color: white;
+}
+
+.main-wrapper {
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-block {
+    font-size: 2.312rem;
+    font-weight: 400;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+}
+
+.bulk-order {
+    padding: 1.875rem;
+    font-size: 1.375rem;
+    color: #67dbad;
+    background-color: #f9fff9;
+}
+
+.bulk-order p {
+    width: 80%;
+    letter-spacing: 0.3px;
+    font-size: .937rem;
+    color: #afbdb7;
+    line-height: 1.4;
+}
+
+.bulk-order p:first-child {
+    padding-top: 1.25rem;
+}
+
+.bulk-order p:nth-child(2) {
+    margin-bottom: 1.125rem;
+}
+
+.bulk-order p a {
+    color: #afbdb7;
+}
+
+.bulk-order .order-link {
+    padding: .75rem 2.187rem;
+    font-size: .875rem;
+    text-decoration: none;
+    border: 1px solid aqua;
+    border-radius: .687rem;
+    color: darkcyan;
+    background-color: #ebf2ef;
+}
+
+.tile-section {
+    margin-top: 3.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.tile-section div {
+    width: 32%;
+    margin-right: 1.25rem;
+    background-color: white;
+    height: 18.75rem;
+    margin-bottom: 3.75rem;
+    padding: 3.125rem 2.312rem;
+    border-radius: .25rem;
+    box-shadow:
+        0 2px 4px 0 rgba(0, 0, 0, 0.01),
+        0 2px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+
+.tile-section div:nth-child(3n+0) {
+    margin-right: 0;
+}
+
+.tile-section div img {
+    width: 3.75rem;
+    height: 3.75rem;
+    float: left;
+    margin-right: 1.562rem;
+}
+
+.tile-section div p {
+    clear: both;
+    padding-top: 1.875rem;
+    font-size: .875rem;
+    color: grey;
+    letter-spacing: 0.2px;
+}
+
+.tile-section div p.tile-title {
+    display: inline-block;
+    padding-top: 0;
+}
+
+.tile-section div span {
+    display: block;
+    padding-top: .25rem;
+}
+
+.tile-section div button {
+    padding: .437rem 2.75rem;
+    margin-top: 1.375rem;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid darkcyan;
+    border-radius: .25rem;
+    color: darkcyan;
+    box-shadow: none;
+}
+
+/*CSS for Footer*/
+
+footer {
+    text-align: center;
+    color: darkgray;
+}
+
+.social-icons {
+    display: inline-block;
+}
+
+.social-icons ul {
+    display: flex;
+    list-style: none;
+}
+
+.social-icons ul li {
+    font-size: 2.625rem;
+    padding: 2.125rem;
+}
+
+.social-icons ul li a {
+    color: darkgrey;
+}
+
+.copyright-text {
+    font-size: 1.312rem;
+    line-height: 1.5;
+}
+
+.copyright-text span {
+    display: block;
+}
+
+.footer-links {
+    padding: 1.437rem 0 2.187rem 0;
+}
+
+
+.footer-links ul li {
+    display: inline-block;
+}
+
+.footer-links ul li a {
+    color: grey;
+    font-size: 1.312rem;
+    letter-spacing: 0.2px;
+    padding-right: 1.25rem;
+}
+
+.footer-links ul li a:after {
+    content: "|";
+    padding-left: 1.25rem;
+}
+
+.footer-links ul li a#contact-us:after {
+    content: "";
+}
