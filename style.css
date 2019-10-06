@@ -114,11 +114,12 @@ main {
 
 .tile-section div {
     width: 32%;
-    margin-right: 1.25rem;
+    position: relative;
+    margin-right: 1.9%;
     background-color: white;
-    height: 18.75rem;
+    height: 22vw;
     margin-bottom: 3.75rem;
-    padding: 3.125rem 2.312rem;
+    padding: 4.5% 3.2%;
     border-radius: .25rem;
     box-shadow:
         0 2px 4px 0 rgba(0, 0, 0, 0.01),
@@ -166,11 +167,78 @@ main {
     box-shadow: none;
 }
 
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    
+    .tile-section div img {
+        width: 1.875rem;
+        height: 1.875rem;
+        margin-right: 1.25rem;
+    }    
+    
+    .tile-section div span,.tile-section div p,.tile-section div button{
+        font-size: .625rem;
+    }
+    
+    .tile-section div p.tile-title{
+        font-size: .562rem;
+    }
+    
+    .tile-section div span{
+        padding-top: 0;
+    }
+    
+    .tile-section div p{
+        padding-top: .75rem;
+    }
+    
+    .tile-section div button{
+        margin-top: .562rem;
+        padding: .25rem 1.687rem;
+    }
+    
+    .tile-section div {
+       padding-right: .375rem;
+    }
+    
+    .footer-links{
+        width:105%;
+    }
+     
+}
+
+@media screen and (max-width: 767px){
+    
+    body{
+        width: 100%;
+    }
+    
+    .ha{
+        margin-left: 0;
+    }
+    
+    .main-wrapper{
+        width: 90%;
+    }
+    
+    .tile-section{
+        margin-top: 2.5rem;
+    }
+    
+    .tile-section div{
+        width: 100%;
+        height: auto;
+    }
+     
+}
+
+
 /*CSS for Footer*/
 
 footer {
     text-align: center;
     color: darkgray;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.02), 0 2px 10px 0 rgba(0, 0, 0, 0.05);
 }
 
 .social-icons {
@@ -224,3 +292,16 @@ footer {
 .footer-links ul li a#contact-us:after {
     content: "";
 }
+
+@media screen and (max-width: 767px){
+ .social-icons ul li{
+        padding: 1.812rem;
+    }
+    
+    .footer-links ul li a{
+        font-size: .937rem;
+    }
+
+}
+
+
