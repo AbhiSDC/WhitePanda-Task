@@ -31,7 +31,7 @@ header {
     float: right;
 }
 
-header a {
+.ha {
     margin-left: 8.062rem;
     margin-bottom: 1.56rem;
 }
